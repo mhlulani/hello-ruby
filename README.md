@@ -23,13 +23,12 @@ $ rbenv global 2.3.5
 $ gem install bundle
 ```
 
+## Declaring dependecies
 ```
 Create a Gemfile with the following content:
 
-source 'https://rubygems.org' #this can be an internal repo
-gem 'nokogiri'
-gem 'rack', '~> 2.0.1'
-gem 'rspec'
+# source 'https://rubygems.mycompany.org' #this can be an internal repo
+gem 'soap', '1.0.2'
 ```
 
 
@@ -46,6 +45,5 @@ $ gem build package.gemspec
 
 # Install the Gem
 $ gem install ./greeter-0.0.0.gem
-
 ```
 
