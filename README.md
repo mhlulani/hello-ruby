@@ -24,9 +24,9 @@ $ gem install bundle
 ```
 
 ## Declaring dependecies
-```
 Create a Gemfile with the following content:
 
+```ruby
 # source 'https://rubygems.mycompany.org' #this can be an internal repo
 gem 'soap', '1.0.2'
 ```
