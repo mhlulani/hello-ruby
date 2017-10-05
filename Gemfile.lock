@@ -1,0 +1,12 @@
+GEM
+  specs:
+    soap (1.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  soap (= 1.0.2)
+
+BUNDLED WITH
+   1.15.4
