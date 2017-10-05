@@ -12,6 +12,7 @@ $ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby
 
 ## View versions
 ```bash
+# List all Ruby versions
 $ rbenv versions
 
 $ rbenv install 2.3.5
@@ -29,5 +30,22 @@ source 'https://rubygems.org' #this can be an internal repo
 gem 'nokogiri'
 gem 'rack', '~> 2.0.1'
 gem 'rspec'
+```
+
+
+## Development
+```bash
+# Download all dependencies
+$ bundle install
+
+# Run tests
+# $ rake
+
+# Build the Gem
+$ gem build package.gemspec
+
+# Install the Gem
+$ gem install ./greeter-0.0.0.gem
+
 ```
 
