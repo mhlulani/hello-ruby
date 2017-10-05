@@ -45,5 +45,8 @@ $ gem build package.gemspec
 
 # Install the Gem
 $ gem install ./greeter-0.0.0.gem
+
+# Run application
+$ ruby -Ilib bin/greet tsonga
 ```
 
