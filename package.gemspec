@@ -10,4 +10,7 @@ Gem::Specification.new do |s|
     s.license     = 'MIT'
     s.files       = ['lib/greet.rb', 'lib/greet/translator.rb']
     s.executables << 'greet'
+
+    # Dependecies
+    s.add_runtime_dependency 'soap', '= 1.0.2'
   end
