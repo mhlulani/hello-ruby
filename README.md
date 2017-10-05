@@ -39,7 +39,7 @@ gem 'rspec'
 $ bundle install
 
 # Run tests
-# $ rake
+$ rake
 
 # Build the Gem
 $ gem build package.gemspec
